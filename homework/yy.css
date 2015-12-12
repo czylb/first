@@ -1,0 +1,475 @@
+body{
+	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
+    font-family: "Microsoft YaHei";
+}
+.whole{
+	margin: 0 auto;
+	background-color: white;
+	width: 1280px;
+	height: 3395px;
+}
+.header{
+	background-image:url(photo/backimage.jpg);
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 565px;
+}
+.pink{
+	background-color:#E38279;
+	opacity:0.3;
+	width: 1280px;
+	height: 535px;
+}
+#logo{
+	margin-left: 130px;
+	position: absolute;
+	top: 63px;
+	font-weight: 50px;
+    font-size: 23px;
+	color: white;
+}
+.nav{
+	position:absolute;
+	top: 63px;
+    left: 829px;	
+}
+.nav ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.nav ul li{
+	float:left;
+}
+.nav ul li a:link,a:visited{
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+}
+.nav ul li a:hover,a:active{
+	color: #1ABC9C;
+}  
+#caption{
+	margin:auto;
+	width: 660px;
+	height: 115px;
+}
+#line{
+	position: absolute;
+	top: 258px;
+	width:698px;
+	color: white;
+}
+#ques{
+	position: absolute;
+	top: 150px;
+	left: 410px;
+	text-decoration: none;
+	font-size: 45px;
+	color: white;
+}
+#foot{
+	position: absolute;
+	top: 260px;
+	left: 480px; 
+	color: white;
+	font-size: 23px;
+}
+#button0{
+	position: absolute;
+	top: 500px;
+	left: 518px;
+	text-align: center;  
+	background-color: #1ABC9C;
+	opacity: 0.3;
+	width:233px;
+	height: 61px;
+}
+#button{
+	position: absolute;
+	top: 504px;
+	left: 523px;
+	text-align: center;
+	background-color: #1ABC9C;
+	opacity:1;
+	width:223px;
+	height: 51px;
+}
+#go{
+    position: absolute;
+    top: 15px;
+    left: 67px;
+	color: white;
+}
+#go:hover{
+	font-size: 15px;
+	color: #ECCBBF;
+}
+/*第一部分样式结束*/
+.introduction{
+	width: 1280px;
+	height: 847px;
+}
+#title{
+	margin-left: 429px;
+	margin-top: 32px;
+	width: 346px;
+	height: 30px;
+	background-image: url(photo/title.jpg);
+}
+#begin{
+	margin-top:50px;
+	margin-left: 192px;
+	width: 823px;
+	height: 148px;
+	background-image: url(photo/begin.jpg);
+}
+#icon1{
+	margin-left: 185px;
+	margin-top: 80px;
+	width: 74px;
+	height: 72px;
+	background-image: url(photo/icon1.jpg);
+}
+#icon2{
+	margin-left: 568px;
+	margin-top: -72px;
+	width: 72px;
+	height: 72px;
+	background-image: url(photo/icon2.jpg);
+}
+#icon3{
+	margin-left: 956px;
+	margin-top: -72px;
+	width: 59px;
+	height: 72px;
+	background-image: url(photo/icon3.jpg);
+}
+#text1{
+	margin-left: 77px;
+	margin-top: 22px;
+	width: 275px;
+	height: 232px;
+	background-image: url(photo/text1.jpg);
+}
+#text2{
+    margin-left: 468px;
+	margin-top: -232px;
+	width: 274px;
+	height: 232px;
+	background-image: url(photo/text2.jpg);
+}
+#text3{
+	margin-top: -232px;
+	margin-left: 846px;
+	width: 272px;
+	height: 232px;
+	background-image: url(photo/text3.jpg);
+}
+#li{
+	margin-top: 72px;
+	margin-left: 86px;
+	width: 1027px;
+	color: white;
+	
+}/*第二部分样式结束*/
+.portfolio{
+	width: 1280px;
+	height: 1000px;
+}
+#image1{
+	margin-top: -55px;
+	margin-left: 80px;
+	width: 429px;
+	height: 322px;
+	background-image: url(photo/image1.jpg);
+}
+.pink1{
+	margin-top: -322px;
+	margin-left: 80px;
+	width: 429px;
+	height: 322px;
+	background-color:#E38279;
+	opacity:0.3;
+}
+.pink1:hover{
+	opacity:0;
+}
+#image2{
+	margin-left:683px;
+	margin-top:-322px;
+	width: 429px;
+	height: 322px;
+	background-image: url(photo/image2.jpg);
+	background-color: #1ABC9C;
+}
+#top-right1{
+	margin-left:352px;
+    position: absolute;
+    top:1502px;
+	width: 40px;
+	height: 40px;
+	background-color:#1ABC9C; 
+}
+#top-right2{
+	margin-left:345px;
+    position: absolute;
+    top:1494px;
+	width: 55px;
+	height: 55px;
+	background-color:#78D8C5; 
+	opacity: 0.6;
+}
+#search{   
+	margin-left:362px;
+	position: absolute;
+	top: 1513px;
+	width: 20px;
+	height: 20px;
+}
+#little{
+	position: absolute;
+	top: 1682px;
+	text-align: center;
+	width: 429px;
+	height: 114px;
+	background-color: #1ABC9C;
+	opacity:0.6;	
+}
+#little:hover{
+	opacity: 1;
+}
+#on{
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+#up{
+	font-size: 7px;
+	color: #297465;
+}
+#image3{
+	margin-top:60px;
+	margin-left: 80px;
+	width: 429px;
+	height: 322px;
+	background-image: url(photo/image3.jpg);
+}
+.pink3{
+	margin-top: -322px;
+	margin-left: 80px;
+	width: 429px;
+	height: 322px;
+	background-color:#E38279;
+	opacity:0.3;
+}
+.pink3:hover{
+	opacity:0;
+}
+#image4{
+	margin-top:-322px;
+	margin-left:683px;
+	width: 429px;
+	height: 322px;
+	background-image: url(photo/image4.jpg);
+}
+.pink4{
+	margin-top: -322px;
+	margin-left: 683px;
+	width: 429px;
+	height: 322px;
+	background-color:#E38279;
+	opacity:0.3;
+}
+.pink4:hover{
+	opacity:0;
+}
+#container{
+	margin-top: 81px;
+	margin-left: 480px;
+	text-align: center;	
+	width: 233px;
+	height: 61px;
+	background-color: #1ABC9C;
+}
+#view a:link,a:visited{
+	margin-left: -30px;
+	text-decoration: none;
+	position:relative;
+	top:20px;
+}
+#view a:hover,a:active{
+	font-size: 15px;
+}
+#decro{
+	margin-left:143px;
+	margin-top: -20px;
+}
+#decro:hover{
+	cursor:pointer;
+}
+#lii{
+	margin-top: 72px;
+	margin-left: 86px;
+	color:white;
+	width: 1027px;
+}/*第三部分样式结束*/
+#contact{
+	width: 1280px;
+	height: 693px;
+}
+#get{
+	margin-left: 443px;
+	position: relative;
+	top: 0px;
+	width:301px;
+	height: 42px;
+	background-image: url(photo/get.jpg);
+}
+#name{
+	position: relative;
+	left: 210px;
+	top:79px;
+	width:393px; 
+	height:78px;
+	background-color: #E4E8E8;
+	color: #CECECE;
+	font-size: 23px;
+}
+#email{
+	position: relative;
+	left: 637px;
+	top:0px;
+	width:393px; 
+	height:78px;
+	background-color: #E4E8E8;
+	color: #CECECE;
+	font-size: 23px;
+}
+#message{
+	position: relative;
+	left: 210px;
+	top:28px;
+	width:818px; 
+	height:266px;
+	background-color: #E4E8E8;
+	color: #CECECE;
+	font-size: 23px;
+}
+#na{
+	position: relative;
+	left:30px;
+	top:15px;
+}
+#em{
+	position: relative;
+	left:30px;
+	top:15px;
+}
+#me{
+	position: relative;
+	left:30px;
+	top:15px;
+}/*第四部分样式结束*/
+#footer{
+	width: 1280px;
+	height: 290px;
+}
+#last{
+	width: 1280px;
+	height:256px;
+	background-color:#1ABC9C;
+	position: absolute;
+	top: 3139px; 
+}
+#twitter0{
+	position:relative;
+	top:169px;
+	left:211px; 
+    width: 106px;
+	height:32px;
+	background-color: #78D8C5;
+	opacity: 0.6;
+}
+#twitter1{
+	position:relative;
+	top:143px;
+	left:217px; 
+    width: 94px;
+	height:94px;
+	background-color: #F6F6F6;
+}
+#twitter{
+	position: relative;
+	top:23px;
+	left:23px;
+}
+#dribble0{
+	position:relative;
+	top:43px;
+	left:574px; 
+	width: 106px;
+	height:32px;
+	background-color: #78D8C5;
+	opacity: 0.6;
+}
+#dribble1{
+	position:relative;
+	top:17px;
+	left:580px;
+	width: 94px;
+	height:94px;
+	background-color: #F6F6F6;
+}
+#dribble{
+	position: relative;
+	top:24px;
+	left:24px;
+}
+#facebook0{
+	position:relative;
+	top:-83px;
+	left:923px; 
+ 	width: 106px;
+	height:32px;
+	background-color: #78D8C5;
+	opacity: 0.6;
+}
+#facebook1{
+	position:relative;
+	top:-109px;
+	left:929px;
+ 	width: 94px;
+	height:94px;
+	background-color: #F6F6F6;
+}
+#facebook{
+	position: relative;
+	top:24px;
+	left:16px;
+}
+.textleft{
+	position: relative;
+	top:-30px;
+	left:148px;
+	width: 188px;
+	height: 20px;
+}
+.rap{
+	margin-top: -67px;
+	position: relative;
+	left:168px;
+	color: white;
+}
+.textright{
+	position: relative;
+	top: -45px;
+	left: 1046px;
+	width: 79px;
+	height: 26px;
+	color:white;
+}
+
+
